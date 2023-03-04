@@ -1,0 +1,25 @@
+.first {
+  background-color:  #18b382;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: opacity 1s, margin-right 0.4s, margin-left 0.4s, padding-right 0.4s, padding-left 0.4s;
+}
+
+.first:hover {
+  opacity: 0.7;
+  margin-left: 1px;
+  margin-right: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
